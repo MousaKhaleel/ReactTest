@@ -12,12 +12,12 @@ function App() {
     <div className="App">
     <div className='s'>
     <div>
-    <Car col='black' src={toyotaImg} discription='good old toyota' color='black' brand='toyota'/>
-    <Car col='brown' src={fordImg} discription='idk i ran out of ideas' color='black' brand='ford'/>
+    <Car src={toyotaImg} discription='good old toyota' color='black' brand='toyota'/>
+    <Car src={fordImg} discription='idk i ran out of ideas' color='brown' brand='ford'/>
     </div>
     <div>
-    <Car col='grey' src={dmcImg} discription='a classic' color='grey' brand='dmc'/>
-    <Car col='red' src={lambor} discription='a better classic' color='red' brand='lamborghini'/>
+    <Car src={dmcImg} discription='a classic' color='grey' brand='dmc'/>
+    <Car src={lambor} discription='a better classic' color='red' brand='lamborghini'/>
     </div>
     </div>
     </div>
